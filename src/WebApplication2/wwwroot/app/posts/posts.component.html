@@ -1,0 +1,14 @@
+﻿<section id="posts-sec">
+    <h4>POSTS</h4>
+    <wait-component *ngIf="isBusy"></wait-component>
+    <div class="row row-centered">
+        <div *ngFor="let post of posts; let last = last" class="col-xs-3 col-centered col-fixed post-box-cnt" style="opacity:0">
+            <div class="post-box">
+                <div class="post-title">{{post.title}}</div>
+                <div class="post-box-thumbnail"><img src="../../src/post-thumbnails/testPic.jpg" /></div>
+            </div>
+            {{last ? fadeInPosts():''}}
+        </div>
+    </div>
+    <div class="error" *ngIf="errorMessage">{{errorMessage}}</div>
+</section>

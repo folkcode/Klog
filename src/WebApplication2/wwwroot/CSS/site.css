@@ -1,0 +1,111 @@
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: right;
+    }
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+section {
+    min-height: 100px;
+    width: 100%;
+    padding-bottom:30px;
+}
+section h4{
+    text-align: center;
+}
+
+.cmp:nth-child(even) {
+    background: #EEE;
+}
+.cmp {
+    border-top:1px solid grey;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.col-fixed {
+    width:400px;
+    margin-left:10px;
+    margin-right: 10px;
+    background:#DDD;
+}
+
+/*Left pointing triangle*/
+.triangle.triangle-left {
+     -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+      -ms-text-overflow: clip;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    box-sizing: content-box;
+    width: 0;
+    height:1px;
+    border-top: 250px solid rgb(147, 40, 203);
+    border-bottom: 250px solid rgb(147, 40, 203);
+    border-left: 600px solid rgb(147, 40, 203);
+    border-right: 300px solid rgba(147, 40, 203, 0);
+}
+div.row{
+    margin:0;
+}
+.post-box-pop{
+    background:grey;
+    margin-top:10px;
+    height:200px;
+}
+.outer-div
+{   
+    text-align: center;
+    height: 100%;
+    background:aqua;
+}
+h3{
+    text-align:center;
+}
+.loader {
+}
+.post-box img {
+    max-width: 390px;
+}
+.post-box-cnt{
+    background:#DDD;
+    height:250px;
+    padding: 5px;
+}
+.post-box{
+    height:100%;  
+    overflow:hidden;
+    position:relative;
+}
+.post-box-thumbnail{
+    overflow:hidden;
+}
+.post-title{
+    width:100%;
+    position:absolute;
+    background:rgba(39, 39, 39, 0.80);
+    color:#939393;
+    padding-left:5px;
+    padding-right:5px;
+}
+#mainApp{ 
+    opacity:0.5;
+}

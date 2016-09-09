@@ -1,0 +1,1 @@
+{"version":3,"file":"wait.component.js","sourceRoot":"","sources":["wait.component.ts"],"names":[],"mappings":";;;;;;;;;;AAAA,qBAA0B,eAAe,CAAC,CAAA;AAM1C;IACI;QACI,OAAO,CAAC,GAAG,CAAC,yBAAyB,CAAC,CAAC;IAC3C,CAAC;IAPL;QAAC,gBAAS,CAAC;YACP,QAAQ,EAAE,gBAAgB;YAC1B,WAAW,EAAE,qCAAqC;SACrD,CAAC;;qBAAA;IAKF,oBAAC;AAAD,CAAC,AAJD,IAIC;AAJY,qBAAa,gBAIzB,CAAA"}

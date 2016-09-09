@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{518DE9B4-129D-441D-9D92-4352AD692764}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9E1F7D04-A5C3-4F65-B9CB-4B4938629C27}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Klog", "src\WebApplication2\Klog.xproj", "{BD913A70-48DA-42FA-9D5B-522BBF70AA8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DisableTS|Any CPU = DisableTS|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD913A70-48DA-42FA-9D5B-522BBF70AA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD913A70-48DA-42FA-9D5B-522BBF70AA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD913A70-48DA-42FA-9D5B-522BBF70AA8B}.DisableTS|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD913A70-48DA-42FA-9D5B-522BBF70AA8B}.DisableTS|Any CPU.Build.0 = Debug|Any CPU
+		{BD913A70-48DA-42FA-9D5B-522BBF70AA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD913A70-48DA-42FA-9D5B-522BBF70AA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD913A70-48DA-42FA-9D5B-522BBF70AA8B} = {518DE9B4-129D-441D-9D92-4352AD692764}
+	EndGlobalSection
+EndGlobal
